@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Robinus">
+      <UniqueIdentifier>{3b59f1b5-291f-4a4b-b729-d4544d21cae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Robinus\header">
+      <UniqueIdentifier>{8d4197c1-a426-47a0-87a0-5705369e8c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Robinus\source">
+      <UniqueIdentifier>{8e83d2ef-584e-464d-91a7-94dfe96995eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cmtDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cmtDlgDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cmt.h">
+      <Filter>Robinus\header</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Robinus\header</Filter>
+    </ClInclude>
+    <ClInclude Include="consensus.h">
+      <Filter>Robinus\header</Filter>
+    </ClInclude>
+    <ClInclude Include="fastcluster.h">
+      <Filter>Robinus\header</Filter>
+    </ClInclude>
+    <ClInclude Include="fusion.h">
+      <Filter>Robinus\header</Filter>
+    </ClInclude>
+    <ClInclude Include="matcher.h">
+      <Filter>Robinus\header</Filter>
+    </ClInclude>
+    <ClInclude Include="tracker.h">
+      <Filter>Robinus\header</Filter>
+    </ClInclude>
+    <ClInclude Include="cvGeneric.h">
+      <Filter>Robinus\header</Filter>
+    </ClInclude>
+    <ClInclude Include="cvColorDef.h">
+      <Filter>Robinus\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cmtDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cmtDlgDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fastcluster.cpp">
+      <Filter>Robinus\source</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Robinus\source</Filter>
+    </ClCompile>
+    <ClCompile Include="matcher.cpp">
+      <Filter>Robinus\source</Filter>
+    </ClCompile>
+    <ClCompile Include="tracker.cpp">
+      <Filter>Robinus\source</Filter>
+    </ClCompile>
+    <ClCompile Include="fusion.cpp">
+      <Filter>Robinus\source</Filter>
+    </ClCompile>
+    <ClCompile Include="consensus.cpp">
+      <Filter>Robinus\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cmt.cpp">
+      <Filter>Robinus\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cmtDlg.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cmtDlg.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\cmtDlg.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Dropbox\_Image\Icons\Sun.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Dropbox\_Image\Icons\Bee.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\rICO_00.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F1_RUNNING.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F1_RUNNING.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F1_0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F1_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoset\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F2_0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F2_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F3_0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F3_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F4_0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F4_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\Fn_x.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F5_0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F5_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F6_0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F6_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F7_0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F7_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F8_0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\F8_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\icoSet\Fn_LIST.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
